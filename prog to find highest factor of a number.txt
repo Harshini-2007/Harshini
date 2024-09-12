@@ -1,0 +1,26 @@
+/******************************
+Program to find highest prime factor
+*****************************/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num, i, c = 0;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    if (num % 2 == 0) {
+        c=2;
+        //printf("2");
+    }
+    for (i = 3; i <= sqrt(num); i += 2) {
+        if (num % i == 0) {
+            if(c>i)
+            {
+                printf("%d",c);
+            }
+            
+            
+        }
+    }
+    printf("%d",i);
+}
