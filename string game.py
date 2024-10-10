@@ -1,4 +1,4 @@
-
+K = 5
 word = "a"
 operations = [1, 1, 1]
 
